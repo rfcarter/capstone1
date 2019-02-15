@@ -1,4 +1,4 @@
-# Prediciting Employment 
+#Predicting Employment
 
 ## Questions
 
