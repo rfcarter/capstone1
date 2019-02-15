@@ -67,6 +67,8 @@ x3 - total_labor_force_advanced_ed<br/>
 
 The model has a really high Adjusted R-squared which would indicate the model is doing a good job of predicting. However, since the dataset is small it is possible that the test data was not evenly distributed. A next step in the model analysis would be to hold back some real data from the model and then compare the predictions to the held back data.
 
+Service Industry is pretty broad so maybe try to predict employment in a subset of the sector such as business services or healthcare.
+
    
 
 ![model1_actual_vs_predict](model1_actual_versus_predicted.png)
