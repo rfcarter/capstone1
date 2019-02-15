@@ -45,8 +45,8 @@
     Dep. Variable:      employed_services 
     Model:                            OLS
     Method:                 Least Squares 
-    R-squared:                       0.972
-    Adj. R-squared:                  0.966
+    R-squared:                       0.993
+    Adj. R-squared:                  0.988
   
                      coef    std err          t      P>|t|      [0.025      0.975]
     
