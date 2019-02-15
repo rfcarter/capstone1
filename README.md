@@ -45,19 +45,17 @@
     Dep. Variable:      employed_services 
     Model:                            OLS
     Method:                 Least Squares 
-    R-squared:                       0.993
-    Adj. R-squared:                  0.988
+    R-squared:                       0.972
+    Adj. R-squared:                  0.966
   
                      coef    std err          t      P>|t|      [0.025      0.975]
     
     ------------------------------------------------------------------------------
-    const         77.4042      0.067   1148.234      0.000      77.252      77.557
-    x1             1.1332      0.220      5.147      0.001       0.635       1.631
+    const         77.4042      0.114    676.180      0.000      77.155      77.654
+    x1             1.7937      0.237      7.579      0.000       1.278       2.309
     x2            -0.7193      0.476     -1.513      0.165      -1.795       0.356
-    x3            -0.8560      0.591     -1.448      0.182      -2.194       0.481
-    x4             0.6912      0.452      1.529      0.161      -0.332       1.714
-    x5             1.5512      0.698      2.223      0.053      -0.027       3.130
-    x6            -1.6808      0.959     -1.753      0.113      -3.849       0.488
+    x3             1.6119      0.533      3.023      0.011       0.450       2.774
+    
 
 
 
@@ -65,9 +63,6 @@
 x1 - total_labor_force_basic_ed<br/>
 x2 - total_labor_force_intermediate_ed<br/>
 x3 - total_labor_force_advanced_ed<br/>
-x4 - umemployeed_basic_ed<br/>
-x5 - unemployed_intermediate_ed<br/>
-x6 - unemployed_advanced_ed<br/>
 
 The model has a really high Adjusted R-squared which would indicate the model is doing a good job of predicting. However, since the dataset is small it is possible that the test data was not evenly distributed. A next step in the model analysis would be to hold back some real data from the model and then compare the predictions to the held back data.
 
